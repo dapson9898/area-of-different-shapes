@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Shapes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="links">
+        <button class="triangle">Area of Triangle</button>
+        <button class="square">Area of Square</button>
+        <button class="square">Area of Rectangle</button>
+        <button class="circle">Area of Circle</button>
+        <button class="rhombus">Area of Rhombus</button>
+        <button class="trapezium">Area of Trapezium</button>
+        <button class="paralellogram">Area of Paralellogram</button>
+    </div>
+
+    <div class="test" id="home">
+        <h1>AREA OF DIFFERENT SHAPES</h1>
+    </div>
+
+    <div class="test" id="triangle">
+        <h1>Area of Triangle</h1>
+        <input type="number" placeholder="base" id="base">
+        <input type="number" placeholder="height" id="height">
+        <p id="triangleResult"></p>
+        <button onclick="areaOfTriangle()">Solve</button>
+    </div>
+
+    <div class="test" id="square">
+        <h1>Area of Square/Rectangle</h1>
+        <input type="number" placeholder="Length" id="length">
+        <input type="number" placeholder="Breadth" id="breadth">
+        <p id="squareResult"></p>
+        <button onclick="areaOfSquare()">Solve</button>
+    </div>
+
+    <div class="test" id="circle">
+        <h1>Area of Circle</h1>
+        <input type="number" placeholder="Radius" id="radius">
+        <p id="circleResult"></p>
+        <button onclick="areaOfCircle()">Solve</button>
+    </div>
+
+    <div class="test" id="rhombus">
+        <h1>Area of Rhombus</h1>
+        <input type="number" placeholder="Diagonal P" id="diagonalp">
+        <input type="number" placeholder="Diagonal Q" id="diagonalq">
+        <p id="rhombusResult"></p>
+        <button onclick="areaOfRhombus()">Solve</button>
+    </div>
+
+    <div class="test" id="trapezium">
+        <h1>Area of Trapezium</h1>
+        <input type="number" placeholder="Base 1" id="base1">
+        <input type="number" placeholder="Base 2" id="base2">
+        <input type="number" placeholder="Height" id="baseHeight">
+        <p id="trapeziumResult"></p>
+        <button onclick="areaOfTrapezium()">Solve</button>
+    </div>
+
+    <div class="test" id="paralellogram">
+        <h1>Area of Paralellogram</h1>
+        <input type="number" placeholder="Base" id="pbase">
+        <input type="number" placeholder="Height" id="pheight">
+        <p id="paralellogramResult"></p>
+        <button onclick="areaOfParalellogram()">Solve</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
