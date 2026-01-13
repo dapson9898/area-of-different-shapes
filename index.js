@@ -43,7 +43,7 @@ let buttons = document.querySelectorAll(".links > button")
             let base1 = document.getElementById("base1")
             let base2 = document.getElementById("base2")
             let baseHeight = document.getElementById("baseHeight")
-            trapeziumResult.innerText = "Area of Trapezium: " + ((Number(base1.value) + Number(base2.value))/2)* Number(height.value).toFixed(2)
+            trapeziumResult.innerText = "Area of Trapezium: " + ((Number(base1.value) + Number(base2.value))/2)* Number(baseHeight.value).toFixed(2)
         }
 
         // console.log(`Area of Paralellogram: `, base * height)
